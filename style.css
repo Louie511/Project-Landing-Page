@@ -7,6 +7,8 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -61,7 +63,7 @@ a,
     margin-top: -150px;
 }
 
-button {
+.sign_up_button_one {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
@@ -72,3 +74,93 @@ button {
     border-radius: 8px;
     border: none;
 }  
+
+.divtwo {
+    text-align: center;
+}
+
+.div_two_info_header {
+    margin-top: 70px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 750px 70px 750px;
+}
+
+.txt {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px 0 50px;
+}
+
+.divthree {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    align-self: center;
+    margin: 80px 850px 0 850px;
+}
+
+.thorquote {
+    margin-bottom: 0;
+}
+
+.author {
+    align-self: flex-end;
+    margin: 0 900px 80px 700px
+}
+
+.thor_the_author {
+    margin-top: 0;
+}
+
+.divfour{
+    margin: 80px 0 80px 0;
+}
+.contentblock {
+    background-color: #3882f6;
+    color: #F9FaF8;
+    margin: 0 800px 0 800px;
+    padding: 20px 100px 20px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call_to_action {
+    margin-bottom: 0;
+}
+
+.sign_up_for_product {
+    margin-top: 5px;
+}
+
+.sign_up_button {
+    align-self: center;
+}
+.sign_up_button_two {
+    background-color: #3882f6;
+    color: white;
+    align-self: center;
+    padding: 5px 29px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
